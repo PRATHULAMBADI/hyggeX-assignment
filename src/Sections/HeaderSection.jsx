@@ -1,18 +1,16 @@
-import logo from '../../public/images/hyggexlogo.png'
+import logo from '../images/hyggexlogo.png'
 
 const Header = () =>  {
   return (
     <div>
         <header>
-          <nav className='flex justify-around items-baseline p-4'>
+          <nav className='flex justify-around items-center p-4'>
 
 {/* logo */}
 
             <div className= 'flex items-center '>
               <img src={logo} alt='Logo' className='h-15 w-15 mr-2'/>
-              <div className='text-customBlue text-6xl'>
-                Hygge<b>X</b>
-              </div>
+              <div className='text-customBlue text-6xl'></div>
               <hr/>
             </div>
 

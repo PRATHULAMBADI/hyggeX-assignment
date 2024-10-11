@@ -1,11 +1,15 @@
-import Header from '../src/components/Header'
-import Section from './components/Section'
+import HeaderSection from './Sections/HeaderSection';
+import FooterSection from './Sections/FooterSection';
+import BodySection from './Sections/BodySection';
+import VideoDisplaySection from './Sections/VideoDisplaySection'
 
 const App = () =>  {
   return (
     <div>
-      <Header />
-      <Section />
+      <HeaderSection />
+      <BodySection />
+      <FooterSection/>
+      <VideoDisplaySection/>
     </div>
   )
 }
