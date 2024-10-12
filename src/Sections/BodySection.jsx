@@ -13,7 +13,7 @@ const Section = () =>  {
     
     <div className='w-full flex '>
 {/*  left section */}
-          <section className='px-36 py-44 w-1/2'>
+          <section className='px-16 py-24 k w-1/2'>
 
     {/* 3 icons*/}
 
@@ -25,7 +25,7 @@ const Section = () =>  {
 
     {/* heading - text*/}
 
-            <div className='relative py-12  text-7xl font-bold font-custom'>Beyond Learning,<img className='absolute top-17 right-64' src= {blueLine} alt='blue_line' /> Becoming.</div>
+            <div className='relative py-10  text-7xl font-bold font-custom'>Beyond Learning,<img className='absolute top-17 right-32' src= {blueLine} alt='blue_line' /> Becoming.</div>
             <div className='font-semibold  text-2xl text-justify'>
               Say goodbye to stressful study sessions. With Hyggex's
               AI-powered learning paths, you can improve your grades
@@ -50,7 +50,7 @@ const Section = () =>  {
 
 {/* right section */}
 
-<section className="w-1/2 ">
+<section className='w-1/2'>
 <ImageSegments/>
 
 </section>
