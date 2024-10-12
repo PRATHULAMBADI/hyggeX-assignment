@@ -8,8 +8,8 @@ const VideoDisplay = () => {
 
   return (
 
-    <div className=' h-screen bg-violet-900'>
-            <div  className='flex py-36 justify-center font-bold space-x-2 text-5xl'><div className='text-white'>See</div> <div className='text-blue-800'>Adaptive Learning <img className='py-3 px-16' src={yellow_line} alt=''/></div> <div  className='text-white'>in Action</div></div>    <div className="flex justify-center items-center">
+    <div className=' h-screen bg-violet-900 '>
+            <div  className='flex py-24 justify-center font-bold space-x-2 text-5xl'><div className='text-white'>See</div> <div className='text-blue-800'>Adaptive Learning <img className='py-3 px-16' src={yellow_line} alt=''/></div> <div  className='text-white'>in Action</div></div>    <div className="flex justify-center items-center">
       {isPlaying ? (
         <iframe
           width='860px'

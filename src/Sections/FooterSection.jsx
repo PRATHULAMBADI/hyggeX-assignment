@@ -7,14 +7,14 @@ import image6 from '../logos/f.png';
 
 const Footer = () =>{
     return(
-        <div className='flex  justify-left item-center bg-cyan-500 w-full  px-20'>
+        <div className='flex  justify-left item-center w-full  px-20'>
     {/* text */}
             <div className='flex flex-col justify-center'>
-                <div className='bg-yellow-500 text-xl text-blue-800 w-32 font-semibold'>Trusted by the best</div>    
-                <div className='bg-green-800  text-xl text-slate-400'>in the industry</div>    
+                <div className=' text-xl text-blue-800 w-32 font-semibold'>Trusted by the best</div>    
+                <div className='  text-xl text-slate-400'>in the industry</div>    
             </div>    
     {/* logo */}
-            <div class=' flex  space-x-16 overflow-hidden group'> 
+            <div className=' flex  space-x-16 overflow-hidden group'> 
                 <div className='flex items-center animate-loop-scroll space-x-16 group-hover:paused'>
                     <img loading='lazy' className=' w-64 h-16 max-w-none' src= {image1} alt='image1' />
                     <img loading='lazy' className='w-56 h-16  max-w-none' src= {image2} alt='image2' />    

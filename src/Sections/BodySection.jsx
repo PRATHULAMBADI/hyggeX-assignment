@@ -13,11 +13,11 @@ const Section = () =>  {
     
     <div className='w-full flex '>
 {/*  left section */}
-          <section className='bg-red-500 px-36 py-44 w-1/2'>
+          <section className='px-36 py-44 w-1/2'>
 
     {/* 3 icons*/}
 
-            <div className=' py-10 bg-blue-500 flex items-center gap-16'>
+            <div className=' py-10 flex items-center gap-16'>
                 <div className='flex items-center gap-2'><img className='w-6 h-6 bg-blue-200  px-1 py-1' src={student} alt='Students' /><div className='font-custom font-semibold'>Students</div></div>
                 <div className='flex items-center gap-2'><img className='w-6 h-6 bg-yellow-200 px-1 py-1' src={teacher} alt='Teachers' /><div className='font-custom font-semibold'>Teachers</div></div>
                 <div className='flex items-center gap-2'><img className='w-6 h-6 bg-violet-200 px-1 py-1' src={parent} alt='Parents' /><div className='font-custom font-semibold'>Parents</div></div>
@@ -50,7 +50,7 @@ const Section = () =>  {
 
 {/* right section */}
 
-<section className="bg-green-500 w-1/2 ">
+<section className="w-1/2 ">
 <ImageSegments/>
 
 </section>
